@@ -1,18 +1,8 @@
 package WaitLists;
 
-public class TestWaitLists { 
+public class TestWaitLists {
     public static final Integer[] values = {8, 5, 12345, null, 8, 5};
     public static final boolean detailedReport = true;
-
-    /*public static boolean TestWaitList(String listName, boolean detailedReport){
-        WaitList<Integer> intWL;
-        switch (listName) {
-            case ("WaitList") -> intWL = new WaitList<>();
-            case ("BoundedWaitList") -> intWL = new BoundedWaitList<>(4);
-            case ("UnfairWaitList") -> intWL = new UnfairWaitList<>();
-            default -> intWL = new WaitList<>();
-        }
-    }*/
 
     public static void main(String[] args) {
         boolean result;
